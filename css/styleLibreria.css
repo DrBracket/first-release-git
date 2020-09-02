@@ -1,0 +1,26 @@
+body, html {
+  height: 100%;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.progress .progress-bar {
+    animation-name: animateBar;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 0.8s;
+}
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+
+.container {
+  padding-top: 10px;
+  margin-bottom: 40px;
+  /* background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,90,9,1) 0%, rgba(0,212,255,1) 100%); */
+}
+
+#InserisciLibroBtn{
+  margin-top: 10px;
+}
